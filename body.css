@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: work-sans, serif;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-areas:
+        "nav nav"
+        "head head"
+        "main contact"
+        "mut contact";
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 100px 700px auto 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

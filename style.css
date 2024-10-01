@@ -1,0 +1,115 @@
+@font-face {
+    font-family: customFont;
+    src: url(src/fonts/corporative-sans.ttf);
+}
+
+.bg-podo {
+    background-color: #005870;
+}
+
+#carouselInici {
+    height: 300px;
+    width: 100%;
+    z-index: 1;
+}
+
+#carouselInici img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
+#mutues {
+    grid-area: mut;
+    display: flex;
+    flex-direction: column;
+}
+
+#mutues h2 {
+    text-align: center;
+}
+
+#llista-mutues {
+    display: flex;
+    flex-direction: row;
+}
+
+#mutues img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    height: 70px;
+}
+
+.tall {
+    border: solid #cccccc 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mapouter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 70%;
+}
+
+a {
+    text-decoration: underline;
+    color: #1a73e8;
+}
+
+#titol {
+    width: 50vw;
+    font-family: customFont, serif;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 50px 15px rgba(255, 255, 255, 0.4);
+}
+
+.card {
+    padding: 0;
+}
+
+.podoFoto {
+    object-fit: cover;
+}
+
+.navbar-brand {
+    font-family: customFont, sans-serif;
+    font-weight: bold;
+}
+
+#gallery {
+    width: 1000px
+}
+
+@media (max-width: 992px) {
+    #gallery {
+        width: 100%
+    }
+    #mapouter {
+        width: 100%;
+    }
+}
+
+img {
+    object-fit: cover;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0);
+}
+
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+
+.navbar-toggler-icon {
+    background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
