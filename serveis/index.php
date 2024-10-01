@@ -1,6 +1,6 @@
-<?php include_once "../src/head.php";?>
-<title><?php echo ucwords(basename(__DIR__));?> | Centre Clinic Podològic</title>
-<?php include_once "../src/navbar.php";?>
+<?php include_once "../src/head.php"; ?>
+<title><?php echo ucwords(basename(__DIR__)); ?> | Centre Clinic Podològic</title>
+<?php include_once "../src/navbar.php"; ?>
 <div class="d-flex flex-row flex-wrap justify-content-center mt-4" id="card-container">
     <div class="card mx-3 my-3 col-10 col-lg-3">
         <img alt="..." class="card-img-top" src="../src/img/serveis/pediatrica.jpg">
@@ -62,4 +62,4 @@
         </div>
     </div>
 </div>
-<?php include_once "../src/footer.php";?>
+<?php include_once "../src/footer.php"; ?>

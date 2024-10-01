@@ -1,6 +1,6 @@
-<?php include_once "../src/head.php";?>
-<title><?php echo ucwords(basename(__FILE__, '.php'));?> | Centre Clinic Podològic</title>
-<?php include_once "../src/navbar.php";?>
+<?php include_once "../src/head.php"; ?>
+<title><?php echo ucwords(basename(__FILE__, '.php')); ?> | Centre Clinic Podològic</title>
+<?php include_once "../src/navbar.php"; ?>
 <div class="d-flex flex-column justify-content-center align-items-center mt-4 px-4 pb-4" id="card-container">
     <h1 class="text-center">Podologia Esportiva</h1>
     <div>Diposem de cinta de córrer per valorar el moviment durant l’esport i la carrera i així obtenir
@@ -18,4 +18,4 @@
         </div>
     </div>
 </div>
-<?php include_once "../src/footer.php";?>
+<?php include_once "../src/footer.php"; ?>

@@ -1,6 +1,6 @@
-<?php include_once "../src/head.php";?>
-<title><?php echo ucwords(basename(__DIR__));?> | Centre Clinic Podològic</title>
-<?php include_once "../src/navbar.php";?>
+<?php include_once "../src/head.php"; ?>
+<title><?php echo ucwords(basename(__DIR__)); ?> | Centre Clinic Podològic</title>
+<?php include_once "../src/navbar.php"; ?>
 <div class="carousel slide" data-bs-ride="carousel" id="carouselInici">
     <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="20000">
@@ -29,11 +29,12 @@
     </button>
 </div>
 <div class="d-flex justify-content-center">
-<h1 class="text-center text-dark fs-2" id="titol">
-    <p>Un centre <b>únic</b> a Sant Quirze al teu servei <br>
-        Som un <b>equip</b> amb <b>il·lusió</b> i <b>professionalitat</b> que <b>gaudim</b> de la nostra feina <br>
-        <br><b>+25 anys</b> d'experiència</p>
-</h1>
+    <h1 class="text-center text-dark fs-2" id="titol">
+        <p>Un centre <b>únic</b> a Sant Quirze al teu servei <br>
+            Som un <b>equip</b> amb <b>il·lusió</b> i <b>professionalitat</b> que <b>gaudim</b> de la nostra feina <br>
+            <br><b>+25 anys</b> d'experiència
+        </p>
+    </h1>
 </div>
 <div class="mt-5" id="mutues">
     <h2 class="mb-5">MÚTUES COL·LABORADORES:</h2>
@@ -46,4 +47,4 @@
         <img alt="catsalut" src="../src/img/mutues/logo-catsalut.png">
     </div>
 </div>
-<?php include_once "../src/footer.php";?>
+<?php include_once "../src/footer.php"; ?>
