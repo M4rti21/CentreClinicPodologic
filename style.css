@@ -32,6 +32,9 @@
 #llista-mutues {
     display: flex;
     flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 #mutues img {

@@ -33,7 +33,7 @@
     <h2 class="mb-5">MÚTUES COL·LABORADORES:</h2>
     <div id="llista-mutues" class="d-flex flex-row flex-wrap justify-content-center px-4">
         <img alt="assistencia-sanitaria" src="../src/img/mutues/logo-assistencia.png">
-        <img alt="axa" src="../src/img/mutues/logo-axa.png">
+        <img alt="axa" style="height:200px" src="../src/img/mutues/logo-axa-postit.png">
         <img alt="mgc" src="../src/img/mutues/logo-mgc.png">
         <img alt="cosalud" src="../src/img/mutues/logo-cosalud.png">
         <h4 class="text-center"><b>Conveni</b> amb el <b>Servei Català de la Salut</b> <br>per tractar el peu diabètic</h4>
